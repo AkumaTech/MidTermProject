@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody>();
 //      count = 0;
-//     SetCountText();
+//      SetCountText();
 //      winText.text = " ";
     }
 

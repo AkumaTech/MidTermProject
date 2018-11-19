@@ -11,6 +11,7 @@ public class Menu : MonoBehaviour {
 	
     public void EndGame()
     {
+        UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 

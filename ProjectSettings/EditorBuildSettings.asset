@@ -9,12 +9,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 43155c3238c1da048ad60cac2d364268
   - enabled: 1
+    path: Assets/Scenes/Story 1.unity
+    guid: 20b8ef70af7e75c47bc5b0239942ff68
+  - enabled: 1
     path: Assets/Scenes/Desert.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Died.unity
-    guid: 7391ddd7b5df8e34bbb6e0af10cd781e
+    path: Assets/Scenes/Story 2.unity
+    guid: 524009441903f504da3ec6ab5f661c1a
+  - enabled: 1
+    path: Assets/Scenes/City.unity
+    guid: 098106b96e6775343b2d90cd90c7ea6a
+  - enabled: 1
+    path: Assets/Scenes/Story 3.unity
+    guid: e63b862d5ba59dc4fb2288abaf9e5de4
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 90eb7cf2b176a0d40a46f3361eed7003
+  - enabled: 1
+    path: Assets/Scenes/Story 4.unity
+    guid: 9c7695fdcab76d848bdaa34c9dd52620
+  - enabled: 1
+    path: Assets/Scenes/Bottom Alps.unity
+    guid: 4585273e9b2887a4bb93d14d0f8f049f
+  - enabled: 1
+    path: Assets/Scenes/Story 5.unity
+    guid: 5fb99135406021048ab83ba0340f138b
+  - enabled: 1
+    path: Assets/Scenes/Top Alps.unity
+    guid: 5aeeeed93da883a41bbe434cd8d55140
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 2c21a9dd1056f054e9ee96915a8ffc0a
+  - enabled: 1
+    path: Assets/Scenes/Died.unity
+    guid: 7391ddd7b5df8e34bbb6e0af10cd781e
   m_configObjects: {}

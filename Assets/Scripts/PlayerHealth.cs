@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour {
 		if(currentHealth <= 0)
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Died");//(SceneManager.GetActiveScene().buildIndex + 1);
 
         }
 	}

@@ -20,12 +20,12 @@ public class ScoreManager : MonoBehaviour {
     {
         if (score == 15)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            SceneManager.LoadScene/*("Win");*/(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
             text.text = "Score: " + score;
         }
     }
-
+    
 }

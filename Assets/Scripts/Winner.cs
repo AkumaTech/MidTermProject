@@ -6,6 +6,6 @@ public class Winner : MonoBehaviour {
 
 	public void Win()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene(0);//(SceneManager.GetActiveScene().buildIndex - 3);
     }
 }

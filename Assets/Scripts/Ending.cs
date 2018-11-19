@@ -6,11 +6,12 @@ public class Ending : MonoBehaviour {
 
 	public void gameOver()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("Menu");//(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void Finished()
     {
+        UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }

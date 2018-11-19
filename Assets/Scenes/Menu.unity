@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Luiz Hernandez, Miguel Hernandez,                    Seren Yavus, Miguel
+  m_Text: Luiz Hernandez, Miguel Hernandez,                    Seren Yavuz, Miguel
     Manuel
 --- !u!222 &406268013
 CanvasRenderer:
@@ -857,7 +857,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1292128655}
   - component: {fileID: 1292128654}
-  - component: {fileID: 1292128653}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -865,17 +864,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1292128653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1292128652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ab52f60c66636a4895a318b5e1c7c3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1292128654
 AudioSource:
   m_ObjectHideFlags: 0
