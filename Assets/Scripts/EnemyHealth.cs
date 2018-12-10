@@ -24,6 +24,7 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             ScoreManager.score += scoreValue;
+            ScoreBossFight.score += scoreValue;
             Destroy(gameObject);
 
         }

@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour {
 
-    public int startingHealth;
-    private int currentHealth;
+    public float startingHealth;
+    public float currentHealth;
+    
 
 	// Use this for initialization
 	void Start ()
@@ -17,12 +18,13 @@ public class PlayerHealth : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-		if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
-            SceneManager.LoadScene("Died");//(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Died");
 
         }
+
 	}
 
    

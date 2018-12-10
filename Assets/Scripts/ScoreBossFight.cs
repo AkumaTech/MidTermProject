@@ -3,29 +3,29 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class ScoreManager : MonoBehaviour {
+public class ScoreBossFight : MonoBehaviour {
 
     public static int score;
 
-    Text text;
+    Text text1;
     
     void Awake()
     {
-        text = GetComponent<Text>();
+        text1 = GetComponent<Text>();
 
         score = 0;
     }
 
     void Update()
     {
-        if (score == 15)
+        if (score == 1)
         {
-            SceneManager.LoadScene/*("Win");*/(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         else
         {
-            text.text = "Score: " + score;
+            text1.text = "Score: " + score;
         }
     }
     
